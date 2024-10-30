@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Capa_Web_API\\Capa_Web_API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.Data\\API_Capacitacion.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.Data\\API_Capacitacion.Data.csproj",
+        "projectName": "API_Capacitacion.Data",
+        "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.Data\\API_Capacitacion.Data.csproj",
+        "packagesPath": "C:\\Users\\zoria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zoria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\API_Capacitacion.DTO.csproj": {
+                "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\API_Capacitacion.DTO.csproj"
+              },
+              "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\Api_Capacitacion.Model.csproj": {
+                "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\Api_Capacitacion.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\API_Capacitacion.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\API_Capacitacion.DTO.csproj",
+        "projectName": "API_Capacitacion.DTO",
+        "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\API_Capacitacion.DTO.csproj",
+        "packagesPath": "C:\\Users\\zoria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zoria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\Api_Capacitacion.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\Api_Capacitacion.Model.csproj",
+        "projectName": "Api_Capacitacion.Model",
+        "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\Api_Capacitacion.Model.csproj",
+        "packagesPath": "C:\\Users\\zoria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zoria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Capa_Web_API\\Capa_Web_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Capa_Web_API\\Capa_Web_API.csproj",
+        "projectName": "Capa_Web_API",
+        "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Capa_Web_API\\Capa_Web_API.csproj",
+        "packagesPath": "C:\\Users\\zoria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Capa_Web_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zoria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.Data\\API_Capacitacion.Data.csproj": {
+                "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.Data\\API_Capacitacion.Data.csproj"
+              },
+              "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\API_Capacitacion.DTO.csproj": {
+                "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\API_Capacitacion.DTO\\API_Capacitacion.DTO.csproj"
+              },
+              "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\Api_Capacitacion.Model.csproj": {
+                "projectPath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Capacitaciones\\Creando una  API REST\\Capa_Web_API\\Api_Capacitacion.Model\\Api_Capacitacion.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
